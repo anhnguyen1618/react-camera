@@ -1,0 +1,36 @@
+{
+  "name": "simple-react-camera",
+  "version": "1.0.1",
+  "description": "Simple react component to take snapshot from webcam",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --optimize-minimize"
+  },
+  "author": "Zozo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "image-webpack-loader": "^2.0.0",
+    "node-sass": "^3.10.1",
+    "path": "^0.12.7",
+    "redux-actions": "^1.2.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
